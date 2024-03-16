@@ -16,23 +16,23 @@ Example:
 
 -Run whether user is logged on or not
 
--Trigger:
+-Trigger
 
 	At startup
   
--Actions:
+-Actions
 
-  Start a Program:
+  Start a Program
   
-    Program/script:
+    Program/script
       
       powershell
     
-      Add arguments (optional):
+      Add arguments (optional)
       
         -ExecutionPolicy Bypass -command "C:\TEMP\DisableTouchifEGPUconnected.ps1"
       
--Conditions:
+-Conditions
 
   Uncheck all
   
