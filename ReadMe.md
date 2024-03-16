@@ -18,24 +18,24 @@ Example:
 
 -Trigger
 
-	At startup
+  At startup
   
 -Actions
 
-  Start a Program
+   Start a Program
   
-    Program/script
+   Program/script
       
-      powershell
+	powershell
     
-      Add arguments (optional)
-      
-        -ExecutionPolicy Bypass -command "C:\TEMP\DisableTouchifEGPUconnected.ps1"
+   Add arguments (optional)
+
+	-ExecutionPolicy Bypass -command "C:\TEMP\DisableTouchifEGPUconnected.ps1"
       
 -Conditions
 
-  Uncheck all
+   Uncheck all
   
 -Settings:
 
-  Only check Allow task to be run on demand
+   Only check Allow task to be run on demand
