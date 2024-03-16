@@ -1,7 +1,7 @@
-#This script will constantly run in the background to disable the touchscreen if a specified GPU is found or enable the touchscreen if the specified GPU is not found.
+# This script will constantly run in the background to disable the touchscreen if a specified GPU is found or enable the touchscreen if the specified GPU is not found.
 
 
-###Find the GPU name by using this query
+### **Find the GPU name by using this query**
 
 	Get-PnpDevice | Where-Object { $_.FriendlyName -like *"My GPU"* }
 
@@ -10,7 +10,7 @@ Example:
 	Get-PnpDevice | Where-Object { $_.FriendlyName -like *"4080* }
 
 
-###Add to task scheduler with the following parameters:
+### **Add to task scheduler with the following parameters:**
 
 -Run with highest privileges
 
@@ -18,7 +18,7 @@ Example:
 
 -Trigger:
 
-  At startup
+	At startup
   
 -Actions:
 
