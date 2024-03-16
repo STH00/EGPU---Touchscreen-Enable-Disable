@@ -24,11 +24,11 @@ Example:
 
    Start a Program
   
-   Program/script
+   ** Program/script:
       
 	powershell
     
-   Add arguments (optional)
+   ** Add arguments (optional):
 
 	-ExecutionPolicy Bypass -command "C:\TEMP\DisableTouchifEGPUconnected.ps1"
       
