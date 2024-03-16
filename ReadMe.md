@@ -10,32 +10,41 @@ Example:
 	Get-PnpDevice | Where-Object { $_.FriendlyName -like *"4080* }
 
 
+
 ### **Add to task scheduler with the following parameters:**
 
 -Run with highest privileges
 
 -Run whether user is logged on or not
 
+
+
 -Trigger
 
-  **At startup
-  
+	At startup
+
+
+
 -Actions
 
-   **Start a Program
+	Start a Program
   
-   **Program/script:
+   **Program/script:**
       
 	powershell
     
-   **Add arguments (optional):
+   **Add arguments (optional):**
 
 	-ExecutionPolicy Bypass -command "C:\TEMP\DisableTouchifEGPUconnected.ps1"
+
+
       
 -Conditions
 
-   **Uncheck all
+	Uncheck all
+
+
   
 -Settings:
 
-   Only check Allow task to be run on demand
+	Only check Allow task to be run on demand
